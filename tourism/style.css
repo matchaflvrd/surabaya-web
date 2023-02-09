@@ -42,35 +42,15 @@ height: 100vh;
       margin-left: auto;
       margin-right: auto;
   }
-  
-  .container3{
-      max-width: 1280px;
-      margin: 400px auto;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-   }
-  
-  .row3{
-    width: calc((1/2)*80%);
-    margin-bottom: 5%;
-    padding: 10px;
-  }
-  
-  .judul3{
-      width: 100%;
-    }
-  
-  .gambar3{
-      width: 100%;
+    
+  .gambar{
+      min-height: 100%;
+      max-width: 100%;
       display: block; 
-      margin-left: 10px;
-      margin-right: 10px;
       border-radius: 5%;
   }
-  .detail3{
-    margin-left: 2%;
-    margin-right: 0%;
-    font-size: 10pt;
+  
+  .bawah{
+    background-color: #9141e0;
   }
   
