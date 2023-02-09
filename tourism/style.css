@@ -1,0 +1,76 @@
+
+.video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  height: 100%;
+}
+
+section {
+position: relative;
+width: 100%;
+height: 100vh;
+}
+
+
+.button3{
+    color: white;
+    background-color: blueviolet;
+    margin-top: 20px;
+    border-color: transparent;
+    border-radius: 10%;
+    margin-left: 5px;
+    font-size: 12pt;
+  }
+  
+  .button3:hover{
+    background-color: purple;  
+  }
+  
+  .logo3{
+      width: 80px;
+      display: block;
+      margin-top: 30px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  .container3{
+      max-width: 1280px;
+      margin: 400px auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+  
+  .row3{
+    width: calc((1/2)*80%);
+    margin-bottom: 5%;
+    padding: 10px;
+  }
+  
+  .judul3{
+      width: 100%;
+    }
+  
+  .gambar3{
+      width: 100%;
+      display: block; 
+      margin-left: 10px;
+      margin-right: 10px;
+      border-radius: 5%;
+  }
+  .detail3{
+    margin-left: 2%;
+    margin-right: 0%;
+    font-size: 10pt;
+  }
+  
