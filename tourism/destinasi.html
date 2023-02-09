@@ -56,54 +56,124 @@
         <h2>DESTINASI WISATA</h2>
         </div>
 
-        <div class="container mt-5">
+        <div class="row mt-5">
 
-            <div class="row accordion px-5" id="accordionPanelsStayOpenExample">
+          <div class="col-12 d-flex justify-content-center">
+            <p>
+              <button class="btn btn-primary" style="background-color: white; color: blue;" type="button" data-bs-toggle="collapse" data-bs-target="#filterKategori" aria-expanded="false" aria-controls="collapseExample">
+                Filter Kategori
+              </button>
+              <button class="btn btn-primary" style="background-color: white; color: blue;" type="button" data-bs-toggle="collapse" data-bs-target="#filterWilayah" aria-expanded="false" aria-controls="collapseExample">
+                Filter Wilayah
+              </button>
+              <button class="btn btn-primary" style="background-color: white; color: blue;" type="button" data-bs-toggle="collapse" data-bs-target="#filterKeyword" aria-expanded="false" aria-controls="collapseExample">
+                Filter Keyword
+              </button>
+            </p>
+          </div>
 
-                <div class="col accordion-item">
-                  <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                      Filter Wilayah
-                    </button>
-                  </h2>
-                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-                    <div class="accordion-body">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </div>
-                  </div>
+          <div class="col-12 px-5">
+
+            <div class="collapse" id="filterKategori">
+
+              <div class="card card-body">
+
+                <h6>Filter Wilayah</h6>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    Semua
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Surabaya Pusat
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Surabaya Barat
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Surabaya Timur
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Surabaya Utara
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Surabaya Selatan
+                  </label>
                 </div>
 
-                <div class="col accordion-item">
-                  <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                      Filter Kategori
-                    </button>
-                  </h2>
-                  <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-                    <div class="accordion-body">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </div>
-                  </div>
-                </div>
+              </div>
 
-                <div class="col accordion-item">
-                  <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                      Filter Keyword
-                    </button>
-                  </h2>
-                  <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-                    <div class="accordion-body">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </div>
-                  </div>
-                </div>
-                
-                <div class="col text-center">
-                    <button type="button" class="btn btn-primary"><i data-feather="search" style="width: 18px;"></i>  Filter</button>
-                </div>
             </div>
-            
+
+            <div class="collapse" id="filterWilayah">
+              <div class="card card-body">
+
+                <h6>Filter Kategori</h6>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    Semua
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    History & Heritage
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Museum
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Religi
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    City Park
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Kuliner
+                  </label>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="collapse" id="filterKeyword">
+              <div class="card card-body">
+                <div class="mb-3">
+                  <h6>Filter Keyword</h6>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+              </div>
+            </div>
+              
+          </div>
         </div>
 
 
